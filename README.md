@@ -1,2 +1,2 @@
-# Model make
+# Standard Nissan/Infiniti OBD parameters
 
