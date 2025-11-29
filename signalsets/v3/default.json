@@ -73,11 +73,11 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "cmd": {"22": "1123"}, "freq": 0.25,
   "signals": [
-    {"id": "NI_STFT1", "path": "Engine.Generic", "fmt": { "len": 8, "max": 99.2, "min": -100, "mul": 100, "div": 128, "add": -128, "unit": "percent" }, "name": "Short term fuel trim, bank 1", "suggestedMetric": "shortTermFuelTrim", "description": "Correction being used by the closed-loop fuel algorithm."}
+    {"id": "NI_STFT1", "path": "Engine.Generic", "fmt": { "len": 8, "max": 99.2, "min": -100, "mul": 100, "div": 128, "add": -100, "unit": "percent" }, "name": "Short term fuel trim, bank 1", "suggestedMetric": "shortTermFuelTrim", "description": "Correction being used by the closed-loop fuel algorithm."}
   ]},
 { "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "cmd": {"22": "1125"}, "freq": 1,
   "signals": [
-    {"id": "NI_LTFT1", "path": "Engine.Generic", "fmt": { "len": 8, "max": 99.2, "min": -100, "mul": 100, "div": 128, "add": -128, "unit": "percent" }, "name": "Long term fuel trim, bank 1"}
+    {"id": "NI_LTFT1", "path": "Engine.Generic", "fmt": { "len": 8, "max": 99.2, "min": -100, "mul": 100, "div": 128, "add": -100, "unit": "percent" }, "name": "Long term fuel trim, bank 1"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "cmd": {"22": "112D"}, "freq": 0.25,
   "signals": [
@@ -105,11 +105,11 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "cmd": {"22": "1147"}, "freq": 1,
   "signals": [
-    {"id": "NI_STFT1_LOW", "path": "Engine.Generic", "fmt": { "len": 8, "max": 99.2, "min": -100, "mul": 100, "div": 128, "add": -128, "unit": "percent" }, "name": "Short term fuel trim, bank 1, lowest"}
+    {"id": "NI_STFT1_LOW", "path": "Engine.Generic", "fmt": { "len": 8, "max": 99.2, "min": -100, "mul": 100, "div": 128, "add": -100, "unit": "percent" }, "name": "Short term fuel trim, bank 1, lowest"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "cmd": {"22": "1148"}, "freq": 1,
   "signals": [
-    {"id": "NI_STFT1_HIGH", "path": "Engine.Generic", "fmt": { "len": 8, "max": 99.2, "min": -100, "mul": 100, "div": 128, "add": -128, "unit": "percent" }, "name": "Short term fuel trim, bank 1, highest"}
+    {"id": "NI_STFT1_HIGH", "path": "Engine.Generic", "fmt": { "len": 8, "max": 99.2, "min": -100, "mul": 100, "div": 128, "add": -100, "unit": "percent" }, "name": "Short term fuel trim, bank 1, highest"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "cmd": {"22": "114E"}, "freq": 1,
   "signals": [
